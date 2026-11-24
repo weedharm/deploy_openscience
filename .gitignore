@@ -1,0 +1,12 @@
+# Data and pipeline artefacts produced when running the notebooks
+*.csv
+output_test*.yaml
+HAM10000_images_part_*/
+
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+.idea/
+.vscode/
+.DS_Store

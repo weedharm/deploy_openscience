@@ -1,0 +1,17 @@
+# Client-side packages used by the notebooks (mirrors their first cell).
+# Pipeline steps run in public.ecr.aws/j1r0q0g6/notebooks/notebook-servers/jupyter-tensorflow-full:v1.5.0
+pyOpenSSL==22.0.0
+kfp==1.8.12
+kfp-server-api==1.8.2
+# kfp 1.8 imports requests_toolbelt.appengine, which fails with urllib3 2.x
+urllib3<2
+kserve==0.10.0
+kubernetes
+minio
+lightgbm
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+requests
